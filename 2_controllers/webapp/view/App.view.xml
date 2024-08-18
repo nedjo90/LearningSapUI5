@@ -7,6 +7,5 @@
         text="increment by 1"
         press=".incrementBy1"
     ></Button>
-    <Text id="counter" text="0">
-    </Text>
+    <Text id="counter" text="0" />
 </mvc:View>

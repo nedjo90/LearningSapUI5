@@ -1,0 +1,11 @@
+{
+    "name": "sap.ui.demo",
+    "version": "1.0.0",
+    "description": "The UI5 understand basics of controllers",
+    "scripts": {
+        "start": "ui5 serve -o index.html"
+    },
+    "devDependencies": {
+        "@ui5/cli": "^4.0.4"
+    }
+}

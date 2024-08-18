@@ -1,0 +1,53 @@
+{
+    "title": "Learn SAP UI5",
+    "episodes": [
+        {
+            "title": "Basic Configuration",
+            "index": "#1",
+            "published": "Jan 17 2022",
+            "length": "139"
+        },
+        {
+            "title": "Advanced Configuration",
+            "index": "#2",
+            "published": "Feb 01 2022",
+            "length": "155"
+        },
+        {
+            "title": "Data Binding",
+            "index": "#3",
+            "published": "Feb 15 2022",
+            "length": "120"
+        },
+        {
+            "title": "UI Components",
+            "index": "#4",
+            "published": "Mar 01 2022",
+            "length": "145"
+        },
+        {
+            "title": "Debugging and Testing",
+            "index": "#5",
+            "published": "Mar 17 2022",
+            "length": "132"
+        },
+        {
+            "title": "Deployment",
+            "index": "#6",
+            "published": "Apr 01 2022",
+            "length": "150"
+        },
+        {
+            "title": "Performance Optimization",
+            "index": "#7",
+            "published": "Apr 15 2022",
+            "length": "160"
+        },
+        {
+            "title": "Security Best Practices",
+            "index": "#8",
+            "published": "May 01 2022",
+            "length": "145"
+        }
+    ]
+}
