@@ -1,0 +1,69 @@
+<mvc:View
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    xmlns:grid="sap.ui.layout.cssgrid"
+    xmlns:core="sap.ui.core"
+    controller="sap.ui.calculator.controller.App"
+>
+    <App>
+        <pages>
+            <Page title="Calculator">
+                <content>
+                        <l:VerticalLayout class="calculatorVLayout">
+                            <Input
+                                class="sapUiLargeMarginBottom"
+                                id="result"
+                                value="0"
+                                editable="false"
+                                type="Text"
+                                textAlign="Center"
+                                width="100%"
+                            ></Input>
+                            <grid:CSSGrid
+                                id="grid"
+                                gridTemplateColumns="1fr"
+                                gridTemplateRows="1fr 4fr"
+                            >
+                                <grid:CSSGrid
+                                    gridTemplateColumns="1fr 1fr 1fr 1fr"
+                                    gridTemplateRows="1fr"
+                                >
+                                    <Button id="plus" class="calculatorBtn" text="+"></Button>
+                                    <Button id="minus" class="calculatorBtn" text="-"></Button>
+                                    <Button id="multiply" class="calculatorBtn" text="*"></Button>
+                                    <Button id="divide" class="calculatorBtn" text="/"></Button>
+                                </grid:CSSGrid>
+
+                                <grid:CSSGrid
+                                    gridTemplateColumns="3fr 1fr"
+                                    gridTemplateRows="1fr"
+                                >
+                                    <grid:CSSGrid
+                                        gridTemplateColumns="1fr 1fr 1fr"
+                                        gridTemplateRows="1fr 1fr 1fr"
+                                    >
+                                        <Button id="one" class="calculatorBtn" text="1"></Button>
+                                        <Button id="two" class="calculatorBtn" text="2"></Button>
+                                        <Button id="three" class="calculatorBtn" text="3"></Button>
+                                        <Button id="four" class="calculatorBtn" text="4"></Button>
+                                        <Button id="five" class="calculatorBtn" text="5"></Button>
+                                        <Button id="six" class="calculatorBtn" text="6"></Button>
+                                        <Button id="seven" class="calculatorBtn" text="7"></Button>
+                                        <Button id="eight" class="calculatorBtn" text="8"></Button>
+                                        <Button id="nine" class="calculatorBtn" text="9"></Button>
+                                        <Button id="dot" class="calculatorBtn" text="."></Button>
+                                        <Button id="zero" class="calculatorBtn" text="0"></Button>
+                                        <Button id="cancel" class="calculatorBtn" text="C"></Button>
+                                    </grid:CSSGrid>
+                                    <Button id="equal" class="calculatorBtn equalBtn" text="="></Button>
+                                </grid:CSSGrid>
+
+                            </grid:CSSGrid>
+
+                        </l:VerticalLayout>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
