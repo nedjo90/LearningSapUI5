@@ -116,16 +116,16 @@ counter/
 │   │
 │   ├── index.html
 │   │
-│	├── index.js
-│	│
-│	│── manifest.json
+│   ├── index.js
+│   │
+│   │── manifest.json
 │   │
 │   ├── view/
-│	│   │
-│	│	└── App.view.xml
+│   │   │
+│   │	└── App.view.xml
 │   │
-│	└── controller/
-│		│
+│   └── controller/
+│	│
 │       └── App.controller.js
 │
 ├── package.json
