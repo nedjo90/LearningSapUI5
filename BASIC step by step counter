@@ -117,6 +117,8 @@ counter/
 │   ├── index.html
 │   │
 │	├── index.js
+│	│
+│	│── manifest.json
 │   │
 │   ├── view/
 │	│   │
@@ -128,8 +130,6 @@ counter/
 │
 ├── package.json
 │
-├── ui5.yaml
-│
-└── manifest.json
+└── ui5.yaml
 ```
 
