@@ -1,0 +1,38 @@
+.basic {
+    background-color: red;
+}
+
+.basic * {
+    background-color: transparent;
+    color: white;
+}
+
+.basic .sapMPanelHdr{
+    color: black;
+}
+
+.models {
+    background-color: green;
+}
+
+.models * {
+    background-color: transparent;
+    color: white;
+}
+
+.models .sapMPanelHdr{
+    color: black;
+}
+
+.international{
+    background-color: blue;
+}
+
+.international * {
+    background-color: transparent;
+    color: white;
+}
+
+.international .sapMPanelHdr{
+    color: black;
+}

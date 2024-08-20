@@ -1,0 +1,24 @@
+<mvc:View
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    controllerName="ui5.template.controller.App">
+    <Panel class="basic" headerText="basic hello world">
+        <Text text="Hello World!"></Text>
+    </Panel>
+    <Panel class="models" headerText="scope of models on buttons">
+        <Button press=".onPressComponent" text="{controllerModel>/buttonComponent}" />
+        <Button press=".onPressManifest" text="{controllerModel>/buttonManifest}" />
+    </Panel>
+    <Panel class="international" headerText="Internationalization">
+        <VBox>
+            <Text
+                text="French => ?sap-language=fr"
+            ></Text>
+            <Text
+                text="Deutch => ?sap-language=de"
+            ></Text>
+            <Text text="{i18n>hello}"></Text>
+        </VBox>
+    </Panel>
+
+</mvc:View>
