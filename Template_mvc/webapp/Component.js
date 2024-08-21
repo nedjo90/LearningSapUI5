@@ -16,6 +16,7 @@ sap.ui.define(
           sap.ui.require.toUrl("ui5/template/model/componentData.json")
         );
         this.setModel(oModel, "componentModel");
+        this.getRouter().initialize();
       },
     });
   }

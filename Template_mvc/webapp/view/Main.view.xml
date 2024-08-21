@@ -1,0 +1,11 @@
+<mvc:View
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+>
+    <Page title="{i18n>firstPageTitle}">
+        <content>
+            <mvc:XMLView viewName="ui5.template.view.NestedView" />
+        </content>
+    </Page>
+</mvc:View>

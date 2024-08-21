@@ -33,6 +33,10 @@ sap.ui.define(
       onCloseDialog() {
         this.byId("myDialog").close();
       },
+      onGoToSecondaryPage(){
+        const oRouter = this.getOwnerComponent().getRouter();
+        oRouter.navTo("secondary")
+      }
     });
   }
 );

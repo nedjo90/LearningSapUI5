@@ -2,13 +2,9 @@
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc"
     controllerName="ui5.template.controller.App">
-    <App>
+    <App id="app">
         <pages>
-            <Page title="{i18n>firstPageTitle}">
-                <content>
-                    <mvc:XMLView viewName="ui5.template.view.NestedView" />
-                </content>
-            </Page>
+            <mvc:XMLView viewName="ui5.template.view.Main" />
         </pages>
     </App>
 

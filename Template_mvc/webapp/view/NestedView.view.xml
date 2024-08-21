@@ -32,4 +32,11 @@
         press=".onOpenDialog"
         />
     </Panel>
+
+    <Panel>
+        <Button 
+        text="Go to the Secondary Page"
+        press=".onGoToSecondaryPage"
+        />
+    </Panel>
 </mvc:View>

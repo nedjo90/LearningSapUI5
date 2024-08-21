@@ -29,15 +29,47 @@
             "id": "app"
         },
         "models": {
-            "i18n":{
+            "i18n": {
                 "type": "sap.ui.model.resource.ResourceModel",
                 "settings": {
                     "bundleName": "ui5.template.i18n.i18n"
                 }
             },
-            "manifestModel":{
+            "manifestModel": {
                 "type": "sap.ui.model.json.JSONModel",
                 "uri": "./model/manifestData.json"
+            }
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "type": "View",
+                "viewType": "XML",
+                "path": "ui5.template.view",
+                "controlId": "app",
+                "controlAggregation": "pages"
+            },
+            "routes": [
+                {
+                    "pattern": "main",
+                    "name": "main",
+                    "target": "main"
+                },
+                {
+                    "pattern": "secondary",
+                    "name": "secondary",
+                    "target": "secondary"
+                }
+            ],
+            "targets": {
+                "main": {
+                    "id": "main",
+                    "name": "Main"
+                },
+                "secondary": {
+                    "id": "secondary",
+                    "name": "Secondary"
+                }
             }
         },
         "resources": {
