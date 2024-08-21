@@ -5,18 +5,18 @@
     controllerName="ui5.template.controller.InvoiceList">
     <Page title="Invoice List Page" showNavButton="true" navButtonPress=".onNavBack">
         <List
-            items="{invoices>/Invoices}"
+            items="{invoicesModel>/}"
             mode="Delete"
             delete=".handleDelete"
         >
             <items>
                 <ObjectListItem
                     busyIndicatorDelay="1000"
-                    number="{invoices>ExtendedPrice}"
-                    numberState="{= ${invoices>ExtendedPrice} > 50 ? 'Error' : 'Success'}"
+                    number="{invoicesModel>ExtendedPrice}"
+                    numberState="{= ${invoicesModel>ExtendedPrice} > 50 ? 'Error' : 'Success'}"
                     numberUnit="EUR"
-                    title="{invoices>ProductName}"
-                    counter="{invoices>Quantity}"
+                    title="{invoicesModel>ProductName}"
+                    counter="{invoicesModel>Quantity}"
                 />
             </items>
         </List>

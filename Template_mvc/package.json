@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"json-server --port 3002 ./webapp/data/invoices.json\" \"ui5 serve --port 8080\" \"browser-sync start --proxy 'localhost:8080' --files 'webapp/**/*'\" ",
+    "start": "concurrently \"json-server --port 3002 ./data/invoices.json\" \"ui5 serve --port 8080\" \"browser-sync start --proxy 'localhost:8080' --files 'webapp/**/*'\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +13,13 @@
   "devDependencies": {
     "@ui5/cli": "^4.0.5",
     "browser-sync": "^3.0.2",
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "json-server": "^1.0.0-beta.2",
+    "ui5-middleware-approuter": "^3.4.8"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-approuter"
+    ]
   }
 }

@@ -5,6 +5,12 @@
         "type": "application",
         "applicationVersion": {
             "version": "1.0.0"
+        },
+        "dataSources": {
+            "invoicesAPI": {
+                "type": "JSON",
+                "uri": "/invoicesURL"
+            }
         }
     },
     "sap.ui": {
@@ -39,9 +45,8 @@
                 "type": "sap.ui.model.json.JSONModel",
                 "uri": "./model/manifestData.json"
             },
-            "invoices": {
-                "type": "sap.ui.model.json.JSONModel",
-                "uri": "./data/invoices.json"
+            "invoicesModel": {
+                "dataSource": "invoicesAPI"
             }
         },
         "routing": {

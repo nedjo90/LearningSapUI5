@@ -9,6 +9,8 @@ sap.ui.define(
           sap.ui.require.toUrl("ui5/template/model/controllerData.json")
         );
         this.getView().setModel(oModel, "controllerModel");
+        console.log(this.getOwnerComponent().getModel("invoicesModel"));
+        
       },
       onPressComponent: function () {
         alert(
