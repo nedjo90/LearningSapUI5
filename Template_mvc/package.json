@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"ui5 serve --port 8080\" \"browser-sync start --proxy 'localhost:8080' --files 'webapp/**/*'\"",
+    "start": "concurrently \"json-server --port 3002 ./webapp/data/invoices.json\" \"ui5 serve --port 8080\" \"browser-sync start --proxy 'localhost:8080' --files 'webapp/**/*'\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

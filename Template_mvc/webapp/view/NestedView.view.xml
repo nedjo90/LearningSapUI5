@@ -39,4 +39,10 @@
         press=".onGoToSecondaryPage"
         />
     </Panel>
+    <Panel>
+        <Button 
+        text="Go to the Invoice List Page"
+        press=".onGoToInvoiceListPage"
+        />
+    </Panel>
 </mvc:View>

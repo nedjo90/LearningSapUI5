@@ -36,6 +36,10 @@ sap.ui.define(
       onGoToSecondaryPage(){
         const oRouter = this.getOwnerComponent().getRouter();
         oRouter.navTo("secondary")
+      },
+      onGoToInvoiceListPage(){
+        const oRouter = this.getOwnerComponent().getRouter();
+        oRouter.navTo("invoiceList")
       }
     });
   }

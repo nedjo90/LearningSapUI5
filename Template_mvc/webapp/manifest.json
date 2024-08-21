@@ -38,6 +38,10 @@
             "manifestModel": {
                 "type": "sap.ui.model.json.JSONModel",
                 "uri": "./model/manifestData.json"
+            },
+            "invoices": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "./data/invoices.json"
             }
         },
         "routing": {
@@ -59,6 +63,11 @@
                     "pattern": "secondary",
                     "name": "secondary",
                     "target": "secondary"
+                },
+                {
+                    "pattern": "invoiceList",
+                    "name": "invoiceList",
+                    "target": "invoiceList"
                 }
             ],
             "targets": {
@@ -69,6 +78,10 @@
                 "secondary": {
                     "id": "secondary",
                     "name": "Secondary"
+                },
+                "invoiceList": {
+                    "id": "invoiceList",
+                    "name": "InvoiceList"
                 }
             }
         },
