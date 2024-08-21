@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "ui5 serve",
+    "start": "concurrently \"ui5 serve --port 8080\" \"browser-sync start --proxy 'localhost:8080' --files 'webapp/**/*'\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,6 +11,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@ui5/cli": "^4.0.5"
+    "@ui5/cli": "^4.0.5",
+    "browser-sync": "^3.0.2",
+    "concurrently": "^8.2.2"
   }
 }

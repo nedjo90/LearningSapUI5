@@ -7,7 +7,7 @@
     color: white;
 }
 
-.basic .sapMPanelHdr{
+.basic .sapMPanelHdr {
     color: black;
 }
 
@@ -20,11 +20,11 @@
     color: white;
 }
 
-.models .sapMPanelHdr{
+.models .sapMPanelHdr {
     color: black;
 }
 
-.international{
+.international {
     background-color: blue;
 }
 
@@ -33,6 +33,10 @@
     color: white;
 }
 
-.international .sapMPanelHdr{
+.international .sapMPanelHdr {
     color: black;
+}
+.myDialog div{
+    width: 1000px;
+
 }

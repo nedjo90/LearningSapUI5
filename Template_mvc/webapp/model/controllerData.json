@@ -1,4 +1,5 @@
 {
     "buttonComponent": "hi! i'am data bind from the controller click the for a model from Component",
-    "buttonManifest": "hi! i'am data bind from the controller click the for a model from Manifest"
+    "buttonManifest": "hi! i'am data bind from the controller click the for a model from Manifest",
+    "dialogTitle": "Hi! I am the title of the dialog from the model bind in the NestedView controller"
 }
